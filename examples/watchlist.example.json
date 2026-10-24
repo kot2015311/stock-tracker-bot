@@ -1,0 +1,5 @@
+{
+  "SBER": {"figi": "BBG004730N88", "name": "Сбербанк", "ref": 290.0, "threshold": 3.0},
+  "LKOH": {"figi": "BBG004731032", "name": "ЛУКОЙЛ", "ref": 6000.0, "threshold": 3.0},
+  "NVTK": {"figi": "BBG00475KKY8", "name": "НОВАТЭК", "ref": 1140.0, "threshold": 3.0}
+}

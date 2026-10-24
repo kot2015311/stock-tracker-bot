@@ -1,0 +1,24 @@
+{
+  "_help": "Источники новостей. telegram: публичные каналы (адрес t.me/s/<channel>), rss: ленты новостей. kind: analytics — обзоры брокеров, в отчёт идут целиком; feed — ленты новостей, в отчёт идут только упоминания ваших бумаг и макро-тем. enabled: false выключает источник. Проверка: python check_sources.py --apply",
+  "telegram": [
+    {"channel": "alfa_investments", "name": "Альфа-Инвестиции", "kind": "analytics", "enabled": true},
+    {"channel": "SberInvestments", "name": "СберИнвестиции", "kind": "analytics", "enabled": true},
+    {"channel": "bcs_world_of_investments", "name": "БКС Мир инвестиций", "kind": "analytics", "enabled": true},
+    {"channel": "markettwits", "name": "MarketTwits", "kind": "feed", "enabled": true},
+    {"channel": "interfaxonline", "name": "Интерфакс", "kind": "feed", "enabled": true},
+    {"channel": "centralbank_russia", "name": "Банк России", "kind": "feed", "enabled": true},
+    {"channel": "rbc_news", "name": "РБК", "kind": "feed", "enabled": true}
+  ],
+  "rss": [
+    {"name": "ЦБ РФ: пресс-релизы", "url": "https://www.cbr.ru/rss/RssPress", "kind": "feed", "enabled": true},
+    {"name": "ЦБ РФ: новости и комментарии", "url": "https://www.cbr.ru/rss/eventrss", "kind": "feed", "enabled": true},
+    {"name": "Интерфакс", "url": "https://www.interfax.ru/rss.asp", "kind": "feed", "enabled": true},
+    {"name": "Прайм", "url": "https://1prime.ru/export/rss2/index.xml", "kind": "feed", "enabled": true},
+    {"name": "РБК", "url": "https://rssexport.rbc.ru/rbcnews/news/30/full.rss", "kind": "feed", "enabled": true},
+    {"name": "Коммерсантъ: экономика", "url": "https://www.kommersant.ru/RSS/section-economics.xml", "kind": "feed", "enabled": true},
+    {"name": "Ведомости", "url": "https://www.vedomosti.ru/rss/news", "kind": "feed", "enabled": true},
+    {"name": "ТАСС", "url": "https://tass.ru/rss/v2.xml", "kind": "feed", "enabled": false},
+    {"name": "Лента.ру", "url": "https://lenta.ru/rss/news", "kind": "feed", "enabled": false}
+  ],
+  "moex_sitenews": false
+}

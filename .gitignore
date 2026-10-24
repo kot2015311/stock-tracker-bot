@@ -1,0 +1,28 @@
+# Секреты: токены и сертификаты никогда не попадают в git
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Личные данные: портфель, сделки, новости, отчёты
+data/
+report_*.txt
+*.broken-*
+
+# Python и окружение
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.whl
+invest-python/
+
+# Редактор и система
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Старая версия бота после обновления
+_old_v1/
