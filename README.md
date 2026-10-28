@@ -1,5 +1,7 @@
 # Stock Tracker Bot
 
+[English version](README.en.md) · ![tests](https://github.com/kot2015311/stock-tracker-bot/actions/workflows/tests.yml/badge.svg)
+
 Телеграм-бот для частного инвестора на Мосбирже. Следит за ценами и портфелем (включая шорты),
 сам собирает новости из Telegram-каналов брокеров и новостных лент и по расписанию присылает
 отчёт-файл: портфель, рынок, цены с техническими индикаторами, дивиденды, новости по вашим бумагам
@@ -187,7 +189,7 @@ python main.py
 ## Тесты
 
 Тесты работают без интернета и без токенов: сеть и биржа в них подменяются подделками.
-Чтобы GitHub запускал их сам при каждом push, можно добавить файл `.github/workflows/tests.yml` (GitHub Actions).
+GitHub запускает их сам при каждом push (`.github/workflows/tests.yml`).
 
 ```bash
 python -m unittest discover -s tests -v
